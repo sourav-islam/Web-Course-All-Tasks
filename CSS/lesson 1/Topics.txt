@@ -1,0 +1,22 @@
+1. Intro
+2. css syntax
+3. FavIcon
+4. 3 ways to use styles
+5. css selectors (*, class, id, tag, grouping selectors )
+6.priority, !important
+7. Combinator
+8. color- rgb, hsl, Hex, color palette,
+9. units
+
+//lesson-2
+var()
+10. border
+11. margin(inline, block)
+12. padding
+15. text
+18. height, width, overflow, calc()
+19. display
+20. position
+23. background
+25. Pseudo-classes, Pseudo-elements
+   

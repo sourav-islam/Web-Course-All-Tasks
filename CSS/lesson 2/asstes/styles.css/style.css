@@ -1,0 +1,209 @@
+:root {
+    --primary: #b25068;
+    --primary-light: #f87696;
+    --bg-color-1: #2d333b;
+    --bg-color-2: whitesmoke;
+    --notify: #e7ab79;
+    --text-1: white;
+    --text-2: rgb(13,13,13);
+    --dark-1: rgb(50, 50, 50);
+  }
+body{
+    background-color: var(--bg-color-1);
+    margin:0;
+    padding: 0;
+} 
+ul{
+    background-color:var(--primary);
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    
+     
+}
+li{
+    float:right;
+     
+}
+li a{
+    color:var(--text-1);
+    padding:  10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+ul>li:nth-child(1){
+    float:left;
+    font-family:roboto,sans-serif;
+    letter-spacing: 3px;
+    text-shadow:5px 5px 5px var(--dark-1) ;
+}
+
+li:hover{
+    background-color: var(--primary-light);
+} 
+
+li:nth-child(1):hover{
+    background-color: var(--primary);
+} 
+
+marquee{
+    background-color: var(--notify);
+    color: var(--text-1);
+    font-size: 12px;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0;
+}
+
+main{
+ /* height: 100vh; */
+ background-color: var(--bg-color-2);
+}
+
+nav{
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+}
+
+#banner-sec > img{ 
+  width:100%;
+  aspect-ratio: 3/1.2;
+}
+
+/* #banner-sec{
+background-image: url('/asstes/images/banner.jpeg'); 
+height: 70vh;
+} */ 
+
+.top-div{
+    background-image: linear-gradient(to right,#d3a854,#ff9789);
+    width:250px;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    margin:5px;
+    padding: 10px;
+    text-align: justify;
+    position:relative;
+    top: -50px;  
+    transition: all .5s linear;
+}
+h4,p{
+    margin:0;
+    padding:0;
+}
+#top-sec{
+    display: flex;
+    justify-content:center ;
+}
+.top-div:hover{
+    top: 100px;
+}
+
+#shop-sec{
+
+}
+h1{
+    color: var(--notify);
+    text-align: center;
+    font-size: 32px;
+}
+.mobile-card{
+    width: 250px;
+    background-color: var(--notify);
+    background-image: linear-gradient(to buttom, rgb(158, 158,158, 0), rgb(36,36,36,0.483));
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5p ;
+    text-align: justify;
+    
+}
+.mobile-card > img{
+    height: 250px;
+    width: inherit;
+    border-radius: 5px ;
+}
+button{
+    background-color: var(--primary);
+    border:none;
+    color: var(--text-1);
+    padding: 10px;
+    font-weight: bold;
+    cursor:pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: var(--primary-light);
+}
+.mobile-card h3::after{
+    content: "Hot Deal" ;
+    background-color: rgb(184, 22, 22);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius:  5px;
+    color:var(--text-1);
+    float:right;
+    position:relative;
+    top: -20px;
+}
+.wrapper-div{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 50vw;
+/* overflow-y:scroll;
+overflow: hidden; */
+}
+
+.review-card{
+    width: 250px;
+    background-color: var(--notify);
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    border-left: 10px solid var(--primary);
+   
+}
+.review-card img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.review-header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.star{
+    color: var(--primary);
+}
+/* 
+#review-sec{
+   float: center;
+} */
+
+#contact-sec{
+    max-width: 540px;
+    padding: 10px;
+
+}
+.plain-input label{
+   background-color: var(--notify);
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    
+
+}
+
+/* .plain-input label:focus{
+    background-color: var(--bg-color-2);
+    outline: 1px solid var(- );
+
+ 
+} */

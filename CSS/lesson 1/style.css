@@ -1,0 +1,24 @@
+/* body{
+  background-color: whitesmoke;
+}
+
+.my-div{
+   background-color: rgb(44, 44, 202);
+}
+#my-div-id{
+  padding: 10px 20px ; 
+}
+div{
+   background-color: yellowgreen;
+}
+p{
+   background-color: yellowgreen ;
+} */
+ div>p{
+   color: rgb(35, 189, 15);
+}
+.unit-div{
+   background-color: darkolivegreen;
+   width: 100px;
+   height: 100px;
+}
